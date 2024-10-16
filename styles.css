@@ -1,0 +1,53 @@
+/* styles.css */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f6f8;
+}
+
+.sidebar {
+    min-width: 250px;
+}
+
+.card {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border: none;
+    border-radius: 10px;
+}
+
+.card h3 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+ul li a {
+    color: #ff6f3d;
+    text-decoration: none;
+}
+
+.active {
+    background-color: orange;
+    color: white;
+}
+
+.center {
+    align-content: center;
+}
+
+.left {
+    text-align: left;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+  }
