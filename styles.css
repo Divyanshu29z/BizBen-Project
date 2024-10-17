@@ -51,3 +51,26 @@ nav ul {
     color: #333;
     font-weight: 600;
   }
+
+  .search-container {
+    display: flex;
+    width: 635px;
+    background-color: white;
+    border-radius: 5px;
+  }
+
+  .input-box {
+    border: none;
+    outline: none;
+    width: 78%;
+  }
+
+  .input-box:focus {
+    outline: none;
+    border: none;
+}
+
+  .search-bar {
+    max-width: 600px;
+    margin: 20px auto;
+  }
